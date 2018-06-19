@@ -1,10 +1,10 @@
 # Jekyll configuration
 
-name: junghoon
-description: 잘정리하자
+name: jhchoi1
+description: 공부합시다.
 
 # url is currently only used only for the RSS feed in feed.xml
-url: https://junghoon.github.io
+url: https://jhchoi1.github.io
 
 # baseurl will often be '', but for a project page on gh-pages, it needs to
 # be the project name.
@@ -13,7 +13,7 @@ url: https://junghoon.github.io
 baseurl: '' 
 
 # This can be '' to hide the Github nav button
-github: 'junghoon'
+github: 'jhchoi1'
 
 # Set this to your UA-# value, or '' to disable the block completely
 gaaccount: 'UA-87353572-1'
