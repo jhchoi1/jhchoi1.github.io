@@ -1,17 +1,15 @@
----
+test2---
 layout: post
-title: "arduino_fan"
-date: 2018-06-18 09:00:00 +0900
+title: "첫 블로그 시작입니다."
+date: 2018-06-21 19:48:00 +0900
 comments: false
 ---
 
-### 아두이노 선풍기 만들기
+### 블로그 시작
 
-아두이노에 프로그래밍을 하기위해 아두이노 ide를 인스톨 해야 된다.
+겁나 어려워요.
 
 [arduino ide download](https://www.arduino.cc/en/Main/Software) 여기에서 다운로드를 받아서 인스톨을 먼저해야된다.
-
-호환보드는 [ch340 driver](https://sparks.gogo.co.nz/ch340.html)를 인스톨해야 되는데 링크에서 인스톨 먼저 진행 하면 되겠다.
 
 그다음에 아두이노 ide가 실행 되면 아래의 코드를 붙혀 넣고 업로드를 진행하면 된다. ^^
 
@@ -44,7 +42,7 @@ void setup() {
 
   myservo.attach(servoPin);
   myservo.write(90);
-  
+
   pinMode(POW_SW_Pin, INPUT);
   pinMode(PAN_SW_Pin, INPUT);
   pinMode(LV1_SW_Pin, INPUT);
@@ -73,7 +71,7 @@ void loop() {
     delay(60);
   }
   else if (POW_OnOff == LOW)
-  { 
+  {
     analogWrite(dcmPin1, 0);
     analogWrite(dcmPin2, 0);
     delay(100);
@@ -141,7 +139,7 @@ void readKey()
 
 ```
 
-# 참조 
+# 참조
 -----
 * [arduino](https://www.arduino.cc/)
 * [아두이노 호환보드](http://smartstore.naver.com/domekit/products/308227621)
